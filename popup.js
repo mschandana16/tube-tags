@@ -31,7 +31,7 @@ const viewBookmarks = (currentBookmarks = []) => {
       addNewBookmark(bookmarksElement, bookmark);
     }
   } else {
-    bookmarksElement.innerHTML = '<i class="row">No bookmarks to show</i>';
+    bookmarksElement.innerHTML = '<i class="row">No bookmarks to show yet.</i>';
   }
 
   return;
@@ -94,6 +94,6 @@ document.addEventListener("DOMContentLoaded", async () => {
     const container = document.getElementsByClassName("container")[0];
 
     container.innerHTML =
-      '<div class="title">This is not a youtube video page.</div>';
+      '<div class="title">This is not a YouTube video page. Hop onto one to add bookmarks.</div>';
   }
 });
