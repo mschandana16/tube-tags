@@ -1,4 +1,4 @@
-# bookmarker-for-yt
+# Bookmarker for YouTube
 
 A Chrome extension to bookmark the timestamps of your YouTube videos.
 
